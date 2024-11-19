@@ -1,0 +1,17 @@
+cuda_device: 0
+step: 100
+epoch: 1000
+lr: 0.01
+lr_mixup: 0.05
+hid_num: 128
+dropout_rate1_before: 0.2
+dropout_rate2_before: 0.2
+dropout_rate1_high: 0.7
+dropout_rate1_mixup: 0.2
+dropout_rate2_mixup: 0.2
+weight_decay: 0.0005
+weight_decay_mixup: 0.0002
+with_test_data: "yes"
+score_threshold_mixup: 0.7
+score_threshold_high: 0.4
+patience: 1000
